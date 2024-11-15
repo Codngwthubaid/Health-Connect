@@ -19,28 +19,28 @@ const Navbar = () => {
     }
 
     return (
-        <header className="body-font container mx-auto text-slate-500">
+        <header className="body-font">
             <nav className="flex items-center text-base justify-center">
                 <div className="container mx-auto flex justify-between p-5 items-center">
                     <Link href="/" className="flex title-font font-medium items-center mb-4 md:mb-0">
-                        <div>
-                            <Image
-                                className="w-20 rounded-2xl"
-                                src={LogoHC}
-                                alt="Health-Connect-Logo"
-                            />
-                        </div>
-                        <span className="ml-3 text-2xl font-bold text-[#0077b6]">HealthConnect</span>
+                    <div>
+                        <Image 
+                        className="w-20 rounded-2xl"
+                        src={LogoHC}
+                        alt="Health-Connect-Logo"
+                        />
+                    </div>
+                        <span className="ml-3 text-2xl font-bold text-[#0096c7]">HealthConnect</span>
                     </Link>
                     <ul className="hidden lg:flex items-center text-base justify-center">
-                        <li className="mr-5 hover"><Link href="#">Home</Link></li>
-                        <li className="mr-5 hover"><Link href="#">About</Link></li>
-                        <li className="mr-5 hover"><Link href="#">Services</Link></li>
-                        <li className="mr-5 hover"><Link href="#">Contact Us</Link></li>
+                        <li className="mr-5 hover"><Link href="/">Home</Link></li>
                         <div className='flex gap-x-3'>
-                            <div className="inline-flex text-white items-center bg-[#0077b6] border-0 py-1 px-3 focus:outline-none hover:bg-[#0096c7] rounded text-base mt-4 md:mt-0">
+                            <button className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
                                 <Link href="/pages/SignUp">SignUp</Link>
-                            </div>
+                            </button>
+                            <button className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+                                <Link href="/pages/Login">Login</Link>
+                            </button>
                         </div>
                     </ul>
                     <div className='lg:hidden'>
@@ -56,14 +56,14 @@ const Navbar = () => {
                                 <SheetHeader>
                                     <SheetDescription>
                                         <ul className="flex flex-col gap-y-5 items-start text-base justify-between mt-10">
-                                            <li onClick={toggleMenu} className="mr-5 text-gray-400 text-lg hover"><Link href="#">Home</Link></li>
-                                            <li className="mr-5 hover"><Link href="#">About</Link></li>
-                                            <li className="mr-5 hover"><Link href="#">Services</Link></li>
-                                            <li className="mr-5 hover"><Link href="#">Contact Us</Link></li>
+                                            <li onClick={toggleMenu} className="mr-5 text-gray-400 text-lg hover"><Link href="/">Home</Link></li>
                                             <div className='flex gap-x-3'>
-                                                <div onClick={toggleMenu} className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded mt-4 md:mt-0 text-gray-400 text-lg hover">
+                                                <button onClick={toggleMenu} className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded mt-4 md:mt-0 text-gray-400 text-lg hover">
                                                     <Link href="/pages/SignUp">SignUp</Link>
-                                                </div>
+                                                </button>
+                                                <button onClick={toggleMenu} className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded mt-4 md:mt-0 text-gray-400 text-lg hover">
+                                                    <Link href="/pages/Login">Login</Link>
+                                                </button>
                                             </div>
                                         </ul>
                                     </SheetDescription>

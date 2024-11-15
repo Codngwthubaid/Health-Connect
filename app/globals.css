@@ -4,6 +4,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f4;
 }
 
 @layer base {
@@ -68,5 +69,36 @@ body {
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  h1 {
+    @apply text-4xl md:text-6xl xl:text-7xl font-bold;
+  }
+
+  h2 {
+    @apply text-xl lg:text-4xl font-medium;
+  }
+
+  h3 {
+    @apply text-2xl lg:text-4xl font-medium;
+  }
+
+  a {
+    @apply hover:cursor-pointer;
+  }
+
+  button {
+    @apply hover:cursor-pointer bg-purple-600 hover:bg-purple-700;
   }
 }
