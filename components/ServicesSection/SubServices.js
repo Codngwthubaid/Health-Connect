@@ -10,10 +10,11 @@
 // }
 
 // export default SubServices
+import React from "react";
 import { cn } from "@/lib/utils";
 import Marquee from "../ui/marquee";
 
-const reviews = [
+const ServicesFirst = [
   {
     name: "Personalized Health Monitoring",
     body: "Our platform utilizes advanced AI algorithms to provide real-time health monitoring tailored to individual needs. Users can track vital signs, manage chronic conditions, and receive personalized insights to improve their overall well-being.",
@@ -25,11 +26,26 @@ const reviews = [
   {
     name: "Telemedicine Integration",
     body: "Connect with healthcare professionals seamlessly through our integrated telemedicine services. Users can schedule virtual consultations, receive expert advice, and access medical prescriptions—all from the convenience of their mobile devices.",
+  },
+  {
+    name: "Medication Management",
+    body: "Stay on top of your medication regimen with our AI-powered reminders and tracking features. Our platform helps users manage prescriptions, schedules, and potential drug interactions, ensuring adherence and safety.",
+  },
+  {
+    name: "Health Education and Resources",
+    body: "Access a wealth of educational materials, articles, and videos tailored to your health interests. Our platform empowers users with knowledge, promoting informed decision-making and healthier lifestyle choices.",
+  },
+  {
+    name: "Data Analytics and Insights",
+    body: "Utilize our robust analytics tools to gain insights into health trends and patterns. Our platform aggregates user data to provide valuable feedback, helping both users and healthcare providers make informed decisions.",
   }
 ];
 
-const firstRow = reviews.slice(0, reviews.length / 2);
-const secondRow = reviews.slice(reviews.length / 2);
+// const 
+
+
+const firstRow = ServicesFirst.slice(0, ServicesFirst.length / 2);
+const secondRow = ServicesFirst.slice(ServicesFirst.length / 2);
 
 const ReviewCard = ({
   name,
@@ -38,7 +54,7 @@ const ReviewCard = ({
   return (
     <figure
       className={cn(
-        "relative w-64 cursor-pointer overflow-hidden rounded-xl border p-4",
+        "relative w-64 cursor-pointer overflow-hidden rounded-xl border p-6",
         // light styles
         "border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]",
         // dark styles
@@ -47,22 +63,22 @@ const ReviewCard = ({
     >
       <div className="flex flex-row items-center gap-2">
         <div className="flex flex-col">
-          <figcaption className="text-sm font-medium dark:text-white">
+          <figcaption className="text-lg font-semibold text-[#0096c7] ">
             {name}
           </figcaption>
         </div>
       </div>
-      <blockquote className="mt-2 text-sm">{body}</blockquote>
+      <blockquote className="mt-2 text-slate-500">{body}</blockquote>
     </figure>
   );
 };
 
 export function MarqueeDemo() {
   return (
-    <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
+    <div className="relative flex w-full flex-col items-center justify-center rounded-lg border bg-background md:shadow-xl bg-[#f5f5f4] mt-24">
       <Marquee pauseOnHover className="[--duration:20s]">
-        {firstRow.map((review) => (
-          <ReviewCard key={review.name} {...review} />
+        {firstRow.map((ServicesFirst) => (
+          <ReviewCard key={ServicesFirst.name} {...ServicesFirst} />
         ))}
       </Marquee>
       <Marquee reverse pauseOnHover className="[--duration:20s]">
