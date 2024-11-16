@@ -1,14 +1,11 @@
 import About from "@/components/About";
-import Navbar from "@/components/Navbar";
 import Services from "@/components/Services";
 import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
 import WordFadeIn from "@/components/ui/word-fade-in";
 
 export default function Home() {
   return (
     <>
-      <Navbar />
       <section className="container mx-auto my-36">
         <div className="text-center text-slate-500">
           <div className="my-6">
@@ -25,7 +22,6 @@ export default function Home() {
       <section className="container mx-auto">
         <Contact />
       </section>
-      <Footer />
     </>
   );
 }
