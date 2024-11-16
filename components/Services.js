@@ -1,14 +1,19 @@
 import React from 'react'
 import SubServices from './ServicesSection/SubServices'
-
+import TypingAnimation from './ui/typing-animation'
+import { MarqueeDemo } from './ServicesSection/SubServices'
 const Services = () => {
     return (
         <>
             <div>
-                <h2 className="text-[#0096c7] my-6 text-center font-semibold">Our Services</h2>
+                <div className="text-[#0096c7] my-6 text-center font-semibold">
+                    <TypingAnimation
+                        className="text-4xl font-bold"
+                        text="Our Services"
+                    /></div>
                 <p className='text-slate-500 text-lg mx-10'>At HealthConnect, we are committed to revolutionizing healthcare through our AI-Powered Mobile Health Platform. Our comprehensive suite of services is designed to empower users, enhance patient outcomes, and streamline healthcare delivery.</p>
             </div>
-            <div className='flex gap-y-7 justify-around items-center my-12 flex-wrap'>
+            {/* <div className='flex gap-y-7 justify-around items-center my-12 flex-wrap'>
                 <SubServices
                     title="Personalized Health Monitoring"
                     desc="Our platform utilizes advanced AI algorithms to provide real-time health monitoring tailored to individual needs. Users can track vital signs, manage chronic conditions, and receive personalized insights to improve their overall well-being." />
@@ -27,7 +32,8 @@ const Services = () => {
                 <SubServices
                     title="Data Analytics and Insights"
                     desc="Utilize our robust analytics tools to gain insights into health trends and patterns. Our platform aggregates user data to provide valuable feedback, helping both users and healthcare providers make informed decisions." />
-            </div>
+            </div> */}
+            <div><MarqueeDemo/></div>
         </>
     )
 }

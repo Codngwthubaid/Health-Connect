@@ -1,10 +1,15 @@
 import React from 'react'
+import TypingAnimation from './ui/typing-animation'
 
 const Contact = () => {
     return (
         <section className="">
             <div className="py-8 lg:py-16 px-4 mx-auto">
-                <h2 className="mb-4 text-4xl tracking-tight font-semibold text-center text-[#0096c7]">Contact Us</h2>
+                <div className="mb-4 text-4xl tracking-tight font-semibold text-center text-[#0096c7]">
+                    <TypingAnimation
+                        className="text-4xl font-bold"
+                        text="Contact Us"
+                    /></div>
                 <p className="mb-8 lg:mb-16 text-center text-slate-500 sm:text-xl">Thank you for visiting our website! We are committed to providing you with the best possible healthcare experience, and we understand that communication is key. Our Contact Form is here to facilitate your inquiries and ensure that you receive the support you need in a timely manner.</p>
                 <form action="#" className="space-y-8">
                     <div>
