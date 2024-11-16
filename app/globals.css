@@ -99,6 +99,6 @@ body {
   }
 
   button {
-    @apply hover:cursor-pointer bg-purple-600 hover:bg-purple-700;
+    @apply hover:cursor-pointer hover:bg-[#0096c7] bg-[#0077b6] text-white w-fit p-2 rounded-lg;
   }
 }

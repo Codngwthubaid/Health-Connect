@@ -11,7 +11,7 @@ const Services = () => {
                         className="text-4xl font-bold"
                         text="Our Services"
                     /></div>
-                <p className='text-slate-500 text-lg mx-10'>At HealthConnect, we are committed to revolutionizing healthcare through our AI-Powered Mobile Health Platform. Our comprehensive suite of services is designed to empower users, enhance patient outcomes, and streamline healthcare delivery.</p>
+                <p className='text-slate-500 text-lg text-center mx-10'>At HealthConnect, we are committed to revolutionizing healthcare through our AI-Powered Mobile Health Platform. Our comprehensive suite of services is designed to empower users, enhance patient outcomes, and streamline healthcare delivery.</p>
             </div>
             {/* <div className='flex gap-y-7 justify-around items-center my-12 flex-wrap'>
                 <SubServices
