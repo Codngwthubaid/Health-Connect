@@ -44,7 +44,7 @@ const Navbar = () => {
                         <SignedOut>
                             <div className='flex gap-x-3'>
                                 <div className="inline-flex text-white items-center bg-[#0077b6] border-0 py-1 px-3 focus:outline-none hover:bg-[#0096c7] rounded text-base mt-4 md:mt-0">
-                                    <Link href="/pages/SignUp">SignUp</Link>
+                                    <Link href="/sign-in">SignUp</Link>
                                 </div>
                             </div>
                         </SignedOut>
@@ -68,7 +68,7 @@ const Navbar = () => {
                                             <li className="mr-5 hover"><Link href="#">Contact Us</Link></li>
                                             <div className='flex gap-x-3'>
                                                 <div onClick={toggleMenu} className="inline-flex items-center bg-[#0077b6] border-0 py-1 px-3 focus:outline-none hover:bg-[#0096c7] rounded mt-4 md:mt-0 text-white text-lg hover">
-                                                    <Link href="/pages/SignUp">SignUp</Link>
+                                                    <Link href="/sign-in">SignUp</Link>
                                                 </div>
                                             </div>
                                         </ul>

@@ -8,7 +8,7 @@ import HowsItWork from "@/components/HowsItWork";
 export default function Home() {
   return (
     <>
-      <section className="container mx-auto my-36">
+      <section className="container mx-auto my-20 sm:my-36">
         <div className="text-center text-slate-500">
           <div className="my-6">
             <WordFadeIn className="text-[#0096c7]" words="Transforming Healthcare with AI-Powered Solutions" />

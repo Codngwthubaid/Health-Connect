@@ -6,9 +6,9 @@ import BoxReveal from "@/components/ui/box-reveal";
 const About = () => {
     return (
         <>
-            <div className='flex justify-around items-center'>
-                <div className='w-[45vw] mx-10 text-start text-slate-500'>
-                    <h2 className="text-[#0096c7] my-6 text-center font-semibold">
+            <div className='flex sm:flex-row flex-col-reverse justify-around items-center'>
+                <div className='w-10/12 sm:w-[45vw] mx-10 text-start text-slate-500'>
+                    <h2 className="text-[#0096c7] my-6 text-center text-4xl font-semibold">
                         <BoxReveal boxColor={"#0096c7"} duration={0.5}>
                             <p className="font-semibold">
                                 About Our AI-Powered Mobile Health Platform
@@ -28,7 +28,7 @@ const About = () => {
                 </div>
                 <div>
                     <Image
-                        className="w-[45vw] rounded-2xl"
+                        className="w-10/12 sm:w-[45vw] mx-auto rounded-2xl"
                         src={AboutImg}
                         alt="AboutImg-Logo"
                     />
