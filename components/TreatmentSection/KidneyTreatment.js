@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Kidney from "@/public/Kidney.jpg"
 import DiseaseTemplate from './DiseaseTemplate'
 import Link from 'next/link'
+import { SquareArrowOutUpRight } from 'lucide-react'
 
 const KidneyTreatment = (props) => {
     return (
@@ -54,7 +55,7 @@ const KidneyTreatment = (props) => {
                     SymptomsFourth="weight loss"
                 />
                   <button className='my-3 bg-orange-400 hover:bg-orange-500'>
-                    <Link href="#">View More</Link>
+                    <Link href="https://github.com/Rhythm2125/Health-Connect-App"><SquareArrowOutUpRight /></Link>
                 </button>
             </div>
         </div>

@@ -3,6 +3,7 @@ import Eye from "@/public/Eye.png"
 import Image from 'next/image'
 import DiseaseTemplate from './DiseaseTemplate'
 import Link from 'next/link'
+import { SquareArrowOutUpRight } from 'lucide-react'
 
 const EyeTreatement = (props) => {
     return (
@@ -59,7 +60,7 @@ const EyeTreatement = (props) => {
                     SymptomsFifth="Pain or discomfort in the eye"
                 />
                   <button className='my-3 bg-orange-400 hover:bg-orange-500'>
-                    <Link href="#">View More</Link>
+                    <Link href="https://github.com/Rhythm2125/Health-Connect-App"><SquareArrowOutUpRight /></Link>
                 </button>
             </div>
         </div>

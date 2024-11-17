@@ -41,7 +41,7 @@ const Treatments = () => {
                     DiseaseDetails="Kidney infections, also known as pyelonephritis, are serious infections that typically start in the bladder or urethra and travel up to one or both kidneys. Here are some notable diseases and conditions associated with or caused by kidney infections"
                 />
                 <MentalHealthTreatment
-                    DiseaseName="Mental Gealth"
+                    DiseaseName="Mental Health"
                     DiseaseDetails="Mental health illnesses vary widely in their symptoms and impact on daily life. Here an overview of some common mental health disorders and their symptoms:"
                 />
             </div>

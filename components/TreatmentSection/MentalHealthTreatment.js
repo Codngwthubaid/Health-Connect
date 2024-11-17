@@ -3,6 +3,7 @@ import DiseaseTemplate from './DiseaseTemplate'
 import Image from 'next/image'
 import MentalHealth from "@/public/MentalHealth.png"
 import Link from 'next/link'
+import { SquareArrowOutUpRight } from 'lucide-react';
 
 const MentalHealthTreatment = (props) => {
     return (
@@ -60,8 +61,8 @@ const MentalHealthTreatment = (props) => {
                     SymptomsSixth="Irritability"
                     SymptomsSeventh="difficulty sleeping"
                 />
-                  <button className='my-3 bg-orange-400 hover:bg-orange-500'>
-                    <Link href="#">View More</Link>
+                <button className='my-3 bg-orange-400 hover:bg-orange-500'>
+                    <Link href="https://github.com/Rhythm2125/Health-Connect-App"><SquareArrowOutUpRight /></Link>
                 </button>
             </div>
         </div>
