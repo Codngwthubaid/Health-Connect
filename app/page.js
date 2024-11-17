@@ -3,6 +3,7 @@ import Services from "@/components/Services";
 import Contact from "@/components/Contact";
 import WordFadeIn from "@/components/ui/word-fade-in";
 import Treatments from "@/components/Treatments";
+import HowsItWork from "@/components/HowsItWork";
 
 export default function Home() {
   return (
@@ -16,6 +17,9 @@ export default function Home() {
       </section>
       <section className="container mx-auto my-36">
         <About />
+      </section>
+      <section className="container mx-auto my-36">
+        <HowsItWork />
       </section>
       <section className="container mx-auto my-36">
         <Treatments />

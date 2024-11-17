@@ -16,7 +16,8 @@ const Treatments = () => {
                         className="text-4xl font-bold"
                         text="Treatments"
                     /></div>
-                <p className='text-slate-500 text-lg text-center mx-10'>At HealthConnect,Enhancing Diagnostic Accuracy, Artificial Intelligence (AI) significantly improves diagnostic accuracy by analyzing vast amounts of medical data and identifying patterns that may be overlooked by human clinicians. For instance, AI algorithms can interpret medical imaging</p>
+                <p className='text-slate-500 text-lg text-center mx-10'>At HealthConnect,Artificial Intelligence (AI) is transforming treatment methodologies in healthcare by enabling personalized medicine and enhancing therapeutic decision-making. By analyzing extensive patient data, including genetic profiles, medical histories, and lifestyle factors, AI algorithms can recommend tailored treatment plans that align with individual patient needs. This personalized approach not only improves treatment efficacy but also minimizes adverse effects, as therapies are better suited to the patient's unique characteristics.
+                </p>
             </div>
             <div className='my-24 flex flex-wrap gap-y-5 items-start justify-around'>
                 <NoseTreatment

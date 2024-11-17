@@ -17,9 +17,13 @@ const About = () => {
                         </BoxReveal>
                     </h2>
                     <div className='text-lg'>
-                        <p>Our AI-powered mobile health platform is designed to help healthcare providers like Ravi efficiently manage patient care across multiple locations. By streamlining the tracking of chronic conditions, our solution allows for easy input and retrieval of vital patient data. With features such as remote monitoring, healthcare providers can keep a close eye on patients' health, regardless of their location.
+                        <p>Welcome to Health Connect, your trusted online platform dedicated to enhancing your health and well-being. Our mission is to provide comprehensive medical information, resources, and support to empower individuals to take charge of their health.
                         </p>
-                        <p>The platform also utilizes predictive analytics to forecast potential health deteriorations, ensuring timely interventions and better patient outcomes. Automated alerts notify providers of necessary follow-ups, enabling swift action. Our mission is to transform healthcare delivery by enhancing efficiency and improving the quality of care through innovative AI technology.</p>
+                        <p>At Health Connect, we understand the importance of accessible and reliable health information. Our website features a wide range of topics, including disease prevention, treatment options, wellness tips, and expert advice from healthcare professionals. We strive to create a community where users can connect, share experiences, and find the guidance they need to make informed health decisions.
+                        </p>
+
+                        <p>Whether you're seeking information on a specific condition, looking for healthy lifestyle tips, or wanting to connect with healthcare providers, Health Connect is here to support you every step of the way. Together, let's prioritize health and well-being for a brighter future.
+                        </p>
                     </div>
                 </div>
                 <div>
