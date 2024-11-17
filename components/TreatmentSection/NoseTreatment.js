@@ -57,26 +57,8 @@ const pages = (props) => {
                         SymptomsThird="Tenderness around the affected area"
                         SymptomsFourth="Pus or drainage from the lump (if it ruptures)"
                     />
-                    {/* <DiseaseTemplate
-                        DiseaseSymptoms="Viral Infections Symptoms:"
-                        SymptomsFirst="Runny or stuffy nose"
-                        SymptomsSecond="Mild fever (sometimes)"
-                        SymptomsThird="Sneezing"
-                        SymptomsFourth="Fatigue"
-                        SymptomsFifth="Mild cough"
-                        SymptomsSixth="Sore throat"
-                    />
-                    <DiseaseTemplate
-                        DiseaseSymptoms="Bacterial Infections Symptoms:"
-                        SymptomsFirst="Similar to viral infections, but with more intense or prolonged symptoms"
-                        SymptomsSecond="Fever"
-                        SymptomsThird="A general feeling of being unwell"
-                        SymptomsFourth="Facial pain or pressure"
-                        SymptomsFifth="Thick, green or yellow mucus"
-                        SymptomsSixth="Severe nasal congestion"
-                    /> */}
                       <button className='my-3 bg-orange-400 hover:bg-orange-500'>
-                    <Link href="">View More</Link>
+                    <Link href="#">View More</Link>
                 </button>
                 </div>
             </div>

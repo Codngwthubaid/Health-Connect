@@ -58,24 +58,8 @@ const EyeTreatement = (props) => {
                     SymptomsFourth="Blurred vision"
                     SymptomsFifth="Pain or discomfort in the eye"
                 />
-                {/* <DiseaseTemplate
-                    DiseaseSymptoms="Endophthalmitis Symptoms:"
-                    SymptomsFirst="Severe eye pain"
-                    SymptomsSecond="Redness"
-                    SymptomsThird="Vision loss or blurred vision"
-                    SymptomsFourth="Swelling around the eye"
-                    SymptomsFifth="Pus or discharge from the eye"
-                />
-                <DiseaseTemplate
-                    DiseaseSymptoms="Chlamydia Eye Infection (Trachoma) Symptoms:"
-                    SymptomsFirst="Redness and irritation of the eye"
-                    SymptomsSecond="Blurry vision"
-                    SymptomsThird="Scarring of the cornea (if untreated)"
-                    SymptomsFourth="Swollen eyelids"
-                    SymptomsFifth="Eye discharge"
-                /> */}
                   <button className='my-3 bg-orange-400 hover:bg-orange-500'>
-                    <Link href="">View More</Link>
+                    <Link href="#">View More</Link>
                 </button>
             </div>
         </div>

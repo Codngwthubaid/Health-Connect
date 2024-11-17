@@ -60,58 +60,8 @@ const EyeTreatement = (props) => {
                     SymptomsFifth="Dizziness or fainting"
                     SymptomsSixth="Heart murmur (heard by a doctor during a physical exam)"
                 />
-                {/* <DiseaseTemplate
-                    DiseaseSymptoms="Hypertension (High Blood Pressure) Symptoms:"
-                    SymptomsFirst="Often no symptoms until it becomes severe"
-                    SymptomsSecond="Headaches"
-                    SymptomsThird="Nosebleeds"
-                    SymptomsFourth="Shortness of breath"
-                    SymptomsFifth="Dizziness or lightheadedness"
-                    SymptomsSixth="Chest pain or irregular heartbeat (if hypertension leads to heart failure or other complications)"
-                />
-                <DiseaseTemplate
-                    DiseaseSymptoms="Pericarditis Symptoms:"
-                    SymptomsFirst="Sharp, stabbing chest pain (often worsens with deep breaths or lying down)"
-                    SymptomsSecond="Swelling in the abdomen or legs"
-                    SymptomsThird="Fatigue"
-                    SymptomsFourth="Fever"
-                    SymptomsFifth="Shortness of breath"
-                />
-                <DiseaseTemplate
-                    DiseaseSymptoms="Aortic Aneurysm Symptoms:"
-                    SymptomsFirst="Sudden, severe chest or back pain (especially with a ruptured aneurysm)"
-                    SymptomsSecond="Shortness of breath"
-                    SymptomsThird="Difficulty swallowing (if the aneurysm is near the chest)"
-                    SymptomsFourth="A pulse near the belly button (in abdominal aneurysms)"
-                />
-                <DiseaseTemplate
-                    DiseaseSymptoms="Cardiomyopathy Symptoms:"
-                    SymptomsFirst="Shortness of breath"
-                    SymptomsSecond="Chest pain (in some cases)"
-                    SymptomsThird="Irregular heartbeats or palpitations"
-                    SymptomsFourth="Swelling in the legs, ankles, or feet"
-                    SymptomsFifth="Fatigue"
-                />
-                <DiseaseTemplate
-                    DiseaseSymptoms="Angina Pectoris Symptoms:"
-                    SymptomsFirst="Chest pain or discomfort, usually triggered by physical exertion or stress"
-                    SymptomsSecond="Dizziness"
-                    SymptomsThird="Nausea or sweating"
-                    SymptomsFourth="Shortness of breath"
-                    SymptomsFifth="Pain may radiate to the arms, neck, jaw, or back"
-                />
-                <DiseaseTemplate
-                    DiseaseSymptoms="Endocarditis Symptoms:"
-                    SymptomsFirst="Fever"
-                    SymptomsSecond="Night sweats"
-                    SymptomsThird="Fatigue"
-                    SymptomsFourth="Shortness of breath"
-                    SymptomsFifth="Heart murmur"
-                    SymptomsSixth="Swelling in the legs or abdomen"
-                    SymptomsSeventh="Unexplained weight loss"
-                /> */}
                 <button className='my-3 bg-orange-400 hover:bg-orange-500'>
-                    <Link href="">View More</Link>
+                    <Link href="#">View More</Link>
                 </button>
             </div>
         </div>

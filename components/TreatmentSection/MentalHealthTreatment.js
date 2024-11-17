@@ -60,38 +60,8 @@ const MentalHealthTreatment = (props) => {
                     SymptomsSixth="Irritability"
                     SymptomsSeventh="difficulty sleeping"
                 />
-                {/* <DiseaseTemplate
-                    DiseaseSymptoms="Schizophrenia Symptoms:"
-                    SymptomsFirst="Hallucinations (seeing or hearing things that aren't there)."
-                    SymptomsSecond="Delusions (false beliefs, often with paranoia)."
-                    SymptomsThird="Withdrawal from social activities and decreased emotional expression."
-                />
-                <DiseaseTemplate
-                    DiseaseSymptoms="Eating Disorders Symptoms:"
-                    SymptomsFirst="Extreme concern with body weight and shape."
-                    SymptomsSecond="Restricting food intake or binge-eating followed by purging."
-                    SymptomsThird="Obsession with food, calories, and dieting."
-                />
-                <DiseaseTemplate
-                    DiseaseSymptoms="Attention-Deficit/Hyperactivity Disorder (ADHD) Symptoms:"
-                    SymptomsFirst="Difficulty maintaining attention and focus."
-                    SymptomsSecond="Hyperactivity and impulsive behavior."
-                    SymptomsThird="Difficulty organizing tasks and completing work."
-                />
-                <DiseaseTemplate
-                    DiseaseSymptoms="Personality Disorders Symptoms:"
-                    SymptomsFirst="Patterns of unstable relationships, self-image, and emotions."
-                    SymptomsSecond="Impulsive behaviors and intense fear of abandonment."
-                    SymptomsThird="Difficulty managing emotions and stress."
-                />
-                <DiseaseTemplate
-                    DiseaseSymptoms="Utism Spectrum Disorder (ASD) Symptoms:"
-                    SymptomsFirst="Difficulty with social interactions and communication."
-                    SymptomsSecond="Repetitive behaviors and restricted interests."
-                    SymptomsThird="Sensitivity to sensory stimuli."
-                /> */}
                   <button className='my-3 bg-orange-400 hover:bg-orange-500'>
-                    <Link href="">View More</Link>
+                    <Link href="#">View More</Link>
                 </button>
             </div>
         </div>

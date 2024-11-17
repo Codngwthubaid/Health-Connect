@@ -57,35 +57,8 @@ const LungsTreatment = (props) => {
                     SymptomsFifth="Muscle aches"
                     SymptomsSixth="Sore throat"
                 />
-                {/* <DiseaseTemplate
-                    DiseaseSymptoms="COVID-19 Symptoms:"
-                    SymptomsFirst="Fever"
-                    SymptomsSecond="Chest pain (in severe cases)"
-                    SymptomsThird="Muscle aches and headaches"
-                    SymptomsFourth="Fatigue"
-                    SymptomsFifth="Cough (often dry but may produce mucus)"
-                    SymptomsSixth="Shortness of breath or difficulty breathing"
-                    SymptomsSeventh="Loss of taste or smell
-"
-                />
-                <DiseaseTemplate
-                    DiseaseSymptoms="Lung Abscess Symptoms:"
-                    SymptomsFirst="Persistent cough with foul-smelling sputum"
-                    SymptomsSecond="Night sweats"
-                    SymptomsThird="Weight loss"
-                    SymptomsFourth="Fatigue"
-                    SymptomsFifth="Chest pain"
-                    SymptomsSixth="Fever and chills"
-                />
-                <DiseaseTemplate
-                    DiseaseSymptoms="Pleurisy (Inflammation of the Lung Linings) Symptoms:"
-                    SymptomsFirst="Sharp chest pain, worsening with breathing or coughing"
-                    SymptomsSecond="Fever (depending on the cause)"
-                    SymptomsThird="Dry cough"
-                    SymptomsFourth="Shortness of breath"
-                /> */}
                 <button className='my-3 bg-orange-400 hover:bg-orange-500'>
-                    <Link href="">View More</Link>
+                    <Link href="#">View More</Link>
                 </button>
             </div>
         </div>

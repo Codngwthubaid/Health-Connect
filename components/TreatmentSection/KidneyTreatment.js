@@ -54,7 +54,7 @@ const KidneyTreatment = (props) => {
                     SymptomsFourth="weight loss"
                 />
                   <button className='my-3 bg-orange-400 hover:bg-orange-500'>
-                    <Link href="">View More</Link>
+                    <Link href="#">View More</Link>
                 </button>
             </div>
         </div>
