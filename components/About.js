@@ -1,5 +1,5 @@
 import React from 'react'
-import LogoHC from "@/public/LogoHC.jpg"
+import AboutImg from "@/public/AboutImg.jpg"
 import Image from 'next/image'
 import BoxReveal from "@/components/ui/box-reveal";
 
@@ -29,8 +29,8 @@ const About = () => {
                 <div>
                     <Image
                         className="w-[45vw] rounded-2xl"
-                        src={LogoHC}
-                        alt="Health-Connect-Logo"
+                        src={AboutImg}
+                        alt="AboutImg-Logo"
                     />
                 </div>
             </div>

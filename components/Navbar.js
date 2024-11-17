@@ -53,21 +53,21 @@ const Navbar = () => {
                         <Sheet open={isOpen} onOpenChange={setIsOpen}>
                             <SheetTrigger>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" viewBox="0 0 30 20" fill="">
-                                    <rect width="30" height="3" fill="#ef4444" />
-                                    <rect y="8.5" width="30" height="3" fill="#ef4444" />
-                                    <rect y="17" width="30" height="3" fill="#ef4444" />
+                                    <rect width="30" height="3" fill="#FFFFFF" />
+                                    <rect y="8.5" width="30" height="3" fill="#FFFFFF" />
+                                    <rect y="17" width="30" height="3" fill="#FFFFFF" />
                                 </svg>
                             </SheetTrigger>
-                            <SheetContent className="bg-gray-900">
+                            <SheetContent className="">
                                 <SheetHeader>
                                     <SheetDescription>
                                         <ul className="flex flex-col gap-y-5 items-start text-base justify-between mt-10">
-                                            <li onClick={toggleMenu} className="mr-5 text-gray-400 text-lg hover"><Link href="#">Home</Link></li>
+                                            <li onClick={toggleMenu} className="mr-5 text-slate-500 text-lg hover"><Link href="#">Home</Link></li>
                                             <li className="mr-5 hover"><Link href="#">About</Link></li>
                                             <li className="mr-5 hover"><Link href="#">Services</Link></li>
                                             <li className="mr-5 hover"><Link href="#">Contact Us</Link></li>
                                             <div className='flex gap-x-3'>
-                                                <div onClick={toggleMenu} className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded mt-4 md:mt-0 text-gray-400 text-lg hover">
+                                                <div onClick={toggleMenu} className="inline-flex items-center bg-[#0077b6] border-0 py-1 px-3 focus:outline-none hover:bg-[#0096c7] rounded mt-4 md:mt-0 text-white text-lg hover">
                                                     <Link href="/pages/SignUp">SignUp</Link>
                                                 </div>
                                             </div>

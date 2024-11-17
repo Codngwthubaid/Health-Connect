@@ -102,3 +102,13 @@ body {
     @apply hover:cursor-pointer hover:bg-[#0096c7] bg-[#0077b6] text-white w-fit p-2 rounded-lg;
   }
 }
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    overflow-x: hidden;
+    scrollbar-width: none;
+  }
+}

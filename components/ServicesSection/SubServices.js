@@ -53,13 +53,7 @@ const ReviewCard = ({
 }) => {
   return (
     <figure
-      className={cn(
-        "relative w-64 cursor-pointer overflow-hidden rounded-xl border p-6",
-        // light styles
-        "border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]",
-        // dark styles
-        "dark:border-gray-50/[.1] dark:bg-gray-50/[.10] dark:hover:bg-gray-50/[.15]",
-      )}
+      className={cn("no-scrollbar  relative w-64 cursor-pointer overflow-hidden rounded-xl border p-6")}
     >
       <div className="flex flex-row items-center gap-2">
         <div className="flex flex-col">
@@ -75,7 +69,7 @@ const ReviewCard = ({
 
 export function MarqueeDemo() {
   return (
-    <div className="relative flex w-full flex-col items-center justify-center rounded-lg border bg-background md:shadow-xl bg-[#f5f5f4] mt-24">
+    <div className="relative flex w-full flex-col items-center justify-center rounded-lg border bg-background md:shadow-xl bg-[#f5f5f4] mt-24 overflow-hidden">
       <Marquee pauseOnHover className="[--duration:20s]">
         {firstRow.map((ServicesFirst) => (
           <ReviewCard key={ServicesFirst.name} {...ServicesFirst} />
