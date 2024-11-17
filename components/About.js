@@ -22,7 +22,7 @@ const About = () => {
                         <p>At Health Connect, we understand the importance of accessible and reliable health information. Our website features a wide range of topics, including disease prevention, treatment options, wellness tips, and expert advice from healthcare professionals. We strive to create a community where users can connect, share experiences, and find the guidance they need to make informed health decisions.
                         </p>
 
-                        <p>Whether you're seeking information on a specific condition, looking for healthy lifestyle tips, or wanting to connect with healthcare providers, Health Connect is here to support you every step of the way. Together, let's prioritize health and well-being for a brighter future.
+                        <p>Whether you&apos;re seeking information on a specific condition, looking for healthy lifestyle tips, or wanting to connect with healthcare providers, Health Connect is here to support you every step of the way. Together, let&apos;s prioritize health and well-being for a brighter future.
                         </p>
                     </div>
                 </div>
