@@ -28,30 +28,66 @@ const MentalHealthTreatment = (props) => {
                 />
                 <DiseaseTemplate
                     DiseaseSymptoms="Anxiety Disorders Symptoms:"
-                    SymptomsFirst="Often milder than acute cases but can include pain"
-                    SymptomsSecond="Fever"
-                    SymptomsThird="A general feeling of being unwell"
+                    SymptomsFirst="Excessive worry or fear that is difficult to control"
+                    SymptomsSecond="Panic attacks (sudden episodes of intense fear, heart palpitations, shortness of breath)"
+                    SymptomsThird="Difficulty concentrating or sleeping"
+                    SymptomsFourth="Muscle tension and rapid heart rate"
+                    SymptomsFifth="Restlessness, feeling on edge, or irritability"
                 />
                 <DiseaseTemplate
-                    DiseaseSymptoms="Kidney Abscess Symptoms:"
-                    SymptomsFirst="High fever"
-                    SymptomsSecond="Abdominal pain,"
-                    SymptomsThird="Night sweats"
-                    SymptomsFourth="Severe pain in the back or side"
+                    DiseaseSymptoms="Bipolar Disorder Symptoms:"
+                    SymptomsFirst="Extreme mood swings ranging from manic (euphoric, excessively energetic) episodes to depressive episodes."
+                    SymptomsSecond="Increased activity"
+                    SymptomsThird="Talkativeness"
+                    SymptomsFourth="Risky behavior during manic episodes"
+                    SymptomsFifth="Low energy"
+                    SymptomsSixth="Sadness"
+                    SymptomsSeventh="withdrawal during depressive episodes"
                 />
                 <DiseaseTemplate
-                    DiseaseSymptoms="Emphysematous Pyelonephritis (EPN) Symptoms:"
-                    SymptomsFirst="Severe abdominal pain "
-                    SymptomsSecond="Fever"
-                    SymptomsThird="Confusion"
-                    SymptomsFourth="Rapid deterioration"
+                    DiseaseSymptoms="Obsessive-Compulsive Disorder (OCD) Symptoms:"
+                    SymptomsFirst="Persistent, unwanted thoughts (obsessions) leading to repetitive behaviors (compulsions)"
+                    SymptomsSecond="Compulsions are performed to alleviate the distress caused by obsessions (e.g., excessive hand washing, checking locks repeatedly)"
                 />
                 <DiseaseTemplate
-                    DiseaseSymptoms=" Renal Tuberculosis Symptoms:"
-                    SymptomsFirst="Blood in the urinefever"
-                    SymptomsSecond="Chronic back pain"
-                    SymptomsThird="Fever"
-                    SymptomsFourth="weight loss"
+                    DiseaseSymptoms="Post-Traumatic Stress Disorder (PTSD) Symptoms:"
+                    SymptomsFirst="Flashbacks"
+                    SymptomsSecond="Nightmares"
+                    SymptomsThird="intrusive memories related to a traumatic event"
+                    SymptomsFourth="Avoidance of reminders of the trauma"
+                    SymptomsFifth="Hypervigilance"
+                    SymptomsSixth="Irritability"
+                    SymptomsSeventh="difficulty sleeping"
+                />
+                <DiseaseTemplate
+                    DiseaseSymptoms="Schizophrenia Symptoms:"
+                    SymptomsFirst="Hallucinations (seeing or hearing things that aren't there)."
+                    SymptomsSecond="Delusions (false beliefs, often with paranoia)."
+                    SymptomsThird="Withdrawal from social activities and decreased emotional expression."
+                />
+                <DiseaseTemplate
+                    DiseaseSymptoms="Eating Disorders Symptoms:"
+                    SymptomsFirst="Extreme concern with body weight and shape."
+                    SymptomsSecond="Restricting food intake or binge-eating followed by purging."
+                    SymptomsThird="Obsession with food, calories, and dieting."
+                />
+                <DiseaseTemplate
+                    DiseaseSymptoms="Attention-Deficit/Hyperactivity Disorder (ADHD) Symptoms:"
+                    SymptomsFirst="Difficulty maintaining attention and focus."
+                    SymptomsSecond="Hyperactivity and impulsive behavior."
+                    SymptomsThird="Difficulty organizing tasks and completing work."
+                />
+                <DiseaseTemplate
+                    DiseaseSymptoms="Personality Disorders Symptoms:"
+                    SymptomsFirst="Patterns of unstable relationships, self-image, and emotions."
+                    SymptomsSecond="Impulsive behaviors and intense fear of abandonment."
+                    SymptomsThird="Difficulty managing emotions and stress."
+                />
+                <DiseaseTemplate
+                    DiseaseSymptoms="Utism Spectrum Disorder (ASD) Symptoms:"
+                    SymptomsFirst="Difficulty with social interactions and communication."
+                    SymptomsSecond="Repetitive behaviors and restricted interests."
+                    SymptomsThird="Sensitivity to sensory stimuli."
                 />
             </div>
         </div>
