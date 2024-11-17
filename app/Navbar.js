@@ -57,14 +57,14 @@ const Navbar = () => {
                                     <SheetDescription>
                                         <ul className="flex flex-col gap-y-5 items-start text-base justify-between mt-10">
                                             <li onClick={toggleMenu} className="mr-5 text-gray-400 text-lg hover"><Link href="/">Home</Link></li>
-                                            <div className='flex gap-x-3'>
+                                            <li className='flex gap-x-3'>
                                                 <button onClick={toggleMenu} className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded mt-4 md:mt-0 text-gray-400 text-lg hover">
                                                     <Link href="/pages/SignUp">SignUp</Link>
                                                 </button>
                                                 <button onClick={toggleMenu} className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded mt-4 md:mt-0 text-gray-400 text-lg hover">
                                                     <Link href="/pages/Login">Login</Link>
                                                 </button>
-                                            </div>
+                                            </li>
                                         </ul>
                                     </SheetDescription>
                                 </SheetHeader>

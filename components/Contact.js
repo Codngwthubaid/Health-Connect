@@ -17,7 +17,7 @@ const Contact = () => {
                 </p>
                 <form className="space-y-8">
                     <div>
-                        <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900">Your email</label>
+                        <label htmlhtmlFor="email" className="block mb-2 text-sm font-medium text-gray-900">Your email</label>
                         <input
                             type="email"
                             id="email"
@@ -27,7 +27,7 @@ const Contact = () => {
                         />
                     </div>
                     <div>
-                        <label htmlFor="subject" className="block mb-2 text-sm font-medium text-gray-900">Subject</label>
+                        <label htmlhtmlFor="subject" className="block mb-2 text-sm font-medium text-gray-900">Subject</label>
                         <input
                             type="text"
                             id="subject"
@@ -37,7 +37,7 @@ const Contact = () => {
                         />
                     </div>
                     <div className="sm:col-span-2">
-                        <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900">Your message</label>
+                        <label htmlhtmlFor="message" className="block mb-2 text-sm font-medium text-gray-900">Your message</label>
                         <textarea
                             id="message"
                             rows="6"
@@ -49,6 +49,7 @@ const Contact = () => {
                         Send message
                     </button>
                 </form>
+
             </div>
         </section>
     );

@@ -1,15 +1,3 @@
-// import React from 'react'
-
-// const SubServices = (props) => {
-//   return (
-//     <div className='flex h-60 gap-y-1 bg-[#caf0f8] flex-col justify-start items-start w-[90vw] sm:w-[45vw] lg:w-[30vw] p-5 rounded-2xl '>
-//       <div className='text-2xl text-[#0096c7] font-semibold'>{props.title}</div>
-//       <p className='text-slate-500'>{props.desc}</p>
-//     </div>
-//   )
-// }
-
-// export default SubServices
 import React from "react";
 import { cn } from "@/lib/utils";
 import Marquee from "../ui/marquee";
@@ -40,9 +28,6 @@ const ServicesFirst = [
     body: "Utilize our robust analytics tools to gain insights into health trends and patterns. Our platform aggregates user data to provide valuable feedback, helping both users and healthcare providers make informed decisions.",
   }
 ];
-
-// const 
-
 
 const firstRow = ServicesFirst.slice(0, ServicesFirst.length / 2);
 const secondRow = ServicesFirst.slice(ServicesFirst.length / 2);

@@ -13,7 +13,8 @@ const HowsItWork = () => {
                         <TypingAnimation
                             className="text-4xl font-bold"
                             text="How Health Connect Works"
-                        /></div>
+                        />
+                    </div>
                     <p className='text-slate-500 text-lg text-center mx-10'>At Health Connect, Artificial Intelligence (AI) operates in medical imaging through advanced algorithms that analyze and interpret vast amounts of imaging data. These algorithms leverage machine learning and deep learning techniques, allowing them to learn from extensive datasets containing various medical images, such as X-rays, MRIs, and CT scans. By training on these datasets, AI can identify complex patterns and anomalies that might be missed by human clinicians, thereby enhancing diagnostic accuracy</p>
                 </div>
                 <div className="container px-5 py-24 mx-auto flex ">

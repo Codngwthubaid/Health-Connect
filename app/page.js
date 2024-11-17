@@ -1,6 +1,5 @@
 import About from "@/components/About";
 import Services from "@/components/Services";
-import Contact from "@/components/Contact";
 import WordFadeIn from "@/components/ui/word-fade-in";
 import Treatments from "@/components/Treatments";
 import HowsItWork from "@/components/HowsItWork";
@@ -26,9 +25,6 @@ export default function Home() {
       </section>
       <section className="container mx-auto my-36">
         <Services />
-      </section>
-      <section className="container mx-auto">
-        <Contact />
       </section>
     </>
   );
