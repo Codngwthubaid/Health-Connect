@@ -2,6 +2,7 @@ import React from 'react'
 import DiseaseTemplate from './DiseaseTemplate'
 import Image from 'next/image'
 import MentalHealth from "@/public/MentalHealth.png"
+import Link from 'next/link'
 
 const MentalHealthTreatment = (props) => {
     return (
@@ -59,7 +60,7 @@ const MentalHealthTreatment = (props) => {
                     SymptomsSixth="Irritability"
                     SymptomsSeventh="difficulty sleeping"
                 />
-                <DiseaseTemplate
+                {/* <DiseaseTemplate
                     DiseaseSymptoms="Schizophrenia Symptoms:"
                     SymptomsFirst="Hallucinations (seeing or hearing things that aren't there)."
                     SymptomsSecond="Delusions (false beliefs, often with paranoia)."
@@ -88,7 +89,10 @@ const MentalHealthTreatment = (props) => {
                     SymptomsFirst="Difficulty with social interactions and communication."
                     SymptomsSecond="Repetitive behaviors and restricted interests."
                     SymptomsThird="Sensitivity to sensory stimuli."
-                />
+                /> */}
+                  <button className='my-3 bg-orange-400 hover:bg-orange-500'>
+                    <Link href="">View More</Link>
+                </button>
             </div>
         </div>
     )

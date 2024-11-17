@@ -2,10 +2,10 @@ import React from 'react'
 import Image from 'next/image'
 import Nose from "@/public/Nose.png"
 import DiseaseTemplate from './DiseaseTemplate'
+import { Link } from 'lucide-react'
 
 const pages = (props) => {
     return (
-        <>
             <div href="#" className="flex sm:flex-row flex-col items-start bg-white border border-gray-200 rounded-xl shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 h-fit">
                 <Image
                     className="object-contain w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
@@ -57,7 +57,7 @@ const pages = (props) => {
                         SymptomsThird="Tenderness around the affected area"
                         SymptomsFourth="Pus or drainage from the lump (if it ruptures)"
                     />
-                    <DiseaseTemplate
+                    {/* <DiseaseTemplate
                         DiseaseSymptoms="Viral Infections Symptoms:"
                         SymptomsFirst="Runny or stuffy nose"
                         SymptomsSecond="Mild fever (sometimes)"
@@ -74,10 +74,13 @@ const pages = (props) => {
                         SymptomsFourth="Facial pain or pressure"
                         SymptomsFifth="Thick, green or yellow mucus"
                         SymptomsSixth="Severe nasal congestion"
-                    />
+                    /> */}
+                      <button className='my-3 bg-orange-400 hover:bg-orange-500'>
+                    <Link href="">View More</Link>
+                </button>
                 </div>
             </div>
-        </>
+
     )
 }
 

@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Kidney from "@/public/Kidney.jpg"
 import DiseaseTemplate from './DiseaseTemplate'
+import Link from 'next/link'
 
 const KidneyTreatment = (props) => {
     return (
@@ -52,6 +53,9 @@ const KidneyTreatment = (props) => {
                     SymptomsThird="Fever"
                     SymptomsFourth="weight loss"
                 />
+                  <button className='my-3 bg-orange-400 hover:bg-orange-500'>
+                    <Link href="">View More</Link>
+                </button>
             </div>
         </div>
     )

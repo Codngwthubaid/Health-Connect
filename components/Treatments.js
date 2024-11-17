@@ -32,10 +32,6 @@ const Treatments = () => {
                     DiseaseName="Heart"
                     DiseaseDetails="Heart diseases encompass a variety of conditions affecting the heart, ranging from structural problems to electrical disturbances. Here are some common heart diseases and their associated symptoms:"
                 />
-                <MentalHealthTreatment
-                    DiseaseName="Mental Gealth"
-                    DiseaseDetails="Mental health illnesses vary widely in their symptoms and impact on daily life. Here an overview of some common mental health disorders and their symptoms:"
-                />
                 <LungsTreatment
                     DiseaseName="Lungs"
                     DiseaseDetails="Lung health is crucial for overall well-being, as the lungs are vital organs responsible for breathing and oxygen exchange. Various lung diseases can significantly impact respiratory function and daily life. Here an overview of some common lung disorders and their symptoms:"
@@ -43,6 +39,10 @@ const Treatments = () => {
                   <KidneyTreatment
                     DiseaseName="Kidney"
                     DiseaseDetails="Kidney infections, also known as pyelonephritis, are serious infections that typically start in the bladder or urethra and travel up to one or both kidneys. Here are some notable diseases and conditions associated with or caused by kidney infections"
+                />
+                <MentalHealthTreatment
+                    DiseaseName="Mental Gealth"
+                    DiseaseDetails="Mental health illnesses vary widely in their symptoms and impact on daily life. Here an overview of some common mental health disorders and their symptoms:"
                 />
             </div>
         </>

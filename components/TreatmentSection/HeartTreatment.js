@@ -2,6 +2,7 @@ import React from 'react'
 import Heart from "@/public/Heart.png"
 import Image from 'next/image'
 import DiseaseTemplate from './DiseaseTemplate'
+import Link from 'next/link'
 
 const EyeTreatement = (props) => {
     return (
@@ -59,7 +60,7 @@ const EyeTreatement = (props) => {
                     SymptomsFifth="Dizziness or fainting"
                     SymptomsSixth="Heart murmur (heard by a doctor during a physical exam)"
                 />
-                <DiseaseTemplate
+                {/* <DiseaseTemplate
                     DiseaseSymptoms="Hypertension (High Blood Pressure) Symptoms:"
                     SymptomsFirst="Often no symptoms until it becomes severe"
                     SymptomsSecond="Headaches"
@@ -108,7 +109,10 @@ const EyeTreatement = (props) => {
                     SymptomsFifth="Heart murmur"
                     SymptomsSixth="Swelling in the legs or abdomen"
                     SymptomsSeventh="Unexplained weight loss"
-                />
+                /> */}
+                <button className='my-3 bg-orange-400 hover:bg-orange-500'>
+                    <Link href="">View More</Link>
+                </button>
             </div>
         </div>
     )

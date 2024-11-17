@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import DiseaseTemplate from './DiseaseTemplate'
 import Lungs from "@/public/Lungs.jpg"
+import Link from 'next/link'
 
 const LungsTreatment = (props) => {
     return (
@@ -56,7 +57,7 @@ const LungsTreatment = (props) => {
                     SymptomsFifth="Muscle aches"
                     SymptomsSixth="Sore throat"
                 />
-                <DiseaseTemplate
+                {/* <DiseaseTemplate
                     DiseaseSymptoms="COVID-19 Symptoms:"
                     SymptomsFirst="Fever"
                     SymptomsSecond="Chest pain (in severe cases)"
@@ -82,7 +83,10 @@ const LungsTreatment = (props) => {
                     SymptomsSecond="Fever (depending on the cause)"
                     SymptomsThird="Dry cough"
                     SymptomsFourth="Shortness of breath"
-                />
+                /> */}
+                <button className='my-3 bg-orange-400 hover:bg-orange-500'>
+                    <Link href="">View More</Link>
+                </button>
             </div>
         </div>
     )

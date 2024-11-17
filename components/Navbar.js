@@ -10,7 +10,7 @@ import {
     SheetHeader,
     SheetTrigger,
 } from "@/components/ui/sheet"
-import { SignedIn, SignedOut, SignIn,UserButton } from "@clerk/nextjs"
+import { SignedIn, SignedOut, UserButton } from "@clerk/nextjs"
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -62,15 +62,20 @@ const Navbar = () => {
                                 <SheetHeader>
                                     <SheetDescription>
                                         <ul className="flex flex-col gap-y-5 items-start text-base justify-between mt-10">
-                                            <li onClick={toggleMenu} className="mr-5 text-slate-500 text-lg hover"><Link href="#">Home</Link></li>
-                                            <li className="mr-5 hover"><Link href="#">About</Link></li>
-                                            <li className="mr-5 hover"><Link href="#">Services</Link></li>
-                                            <li className="mr-5 hover"><Link href="#">Contact Us</Link></li>
-                                            <div className='flex gap-x-3'>
-                                                <div onClick={toggleMenu} className="inline-flex items-center bg-[#0077b6] border-0 py-1 px-3 focus:outline-none hover:bg-[#0096c7] rounded mt-4 md:mt-0 text-white text-lg hover">
-                                                    <Link href="/sign-in">SignUp</Link>
+                                            <SignedIn>
+                                                <UserButton />
+                                                <li onClick={toggleMenu} className="mr-5 text-slate-500 text-lg hover"><Link href="#">Home</Link></li>
+                                                <li className="mr-5 hover"><Link href="#">About</Link></li>
+                                                <li className="mr-5 hover"><Link href="#">Services</Link></li>
+                                                <li className="mr-5 hover"><Link href="#">Contact Us</Link></li>
+                                            </SignedIn>
+                                            <SignedOut>
+                                                <div className='flex gap-x-3'>
+                                                    <div onClick={toggleMenu} className="inline-flex items-center bg-[#0077b6] border-0 py-1 px-3 focus:outline-none hover:bg-[#0096c7] rounded mt-4 md:mt-0 text-white text-lg hover">
+                                                        <Link href="/sign-in">SignUp</Link>
+                                                    </div>
                                                 </div>
-                                            </div>
+                                            </SignedOut>
                                         </ul>
                                     </SheetDescription>
                                 </SheetHeader>

@@ -2,6 +2,7 @@ import React from 'react'
 import Eye from "@/public/Eye.png"
 import Image from 'next/image'
 import DiseaseTemplate from './DiseaseTemplate'
+import Link from 'next/link'
 
 const EyeTreatement = (props) => {
     return (
@@ -57,7 +58,7 @@ const EyeTreatement = (props) => {
                     SymptomsFourth="Blurred vision"
                     SymptomsFifth="Pain or discomfort in the eye"
                 />
-                <DiseaseTemplate
+                {/* <DiseaseTemplate
                     DiseaseSymptoms="Endophthalmitis Symptoms:"
                     SymptomsFirst="Severe eye pain"
                     SymptomsSecond="Redness"
@@ -72,7 +73,10 @@ const EyeTreatement = (props) => {
                     SymptomsThird="Scarring of the cornea (if untreated)"
                     SymptomsFourth="Swollen eyelids"
                     SymptomsFifth="Eye discharge"
-                />
+                /> */}
+                  <button className='my-3 bg-orange-400 hover:bg-orange-500'>
+                    <Link href="">View More</Link>
+                </button>
             </div>
         </div>
     )
